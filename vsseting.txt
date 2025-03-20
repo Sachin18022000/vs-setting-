@@ -89,6 +89,4 @@
 }
 
 
-git config --global user.name "Sachin18022000"
-git config --global user.email "kushwahasachin2000@gmail.com"
   
