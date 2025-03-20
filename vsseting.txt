@@ -1,0 +1,94 @@
+{
+  "workbench.sideBar.location": "right",
+  "workbench.statusBar.visible": false,
+  "workbench.startupEditor": "none",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Catppuccin Macchiato",
+
+  // ⚡ Editor Performance Optimizations
+  "editor.fontSize": 18,
+  "editor.fontFamily": "Cascadia Code, Fira Code, Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.tabSize": 2,
+  "editor.wordWrap": "off",
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.smoothScrolling": false,
+  "editor.cursorSmoothCaretAnimation": "off",
+  "editor.inlineSuggest.enabled": true,
+  "editor.trimAutoWhitespace": true,
+
+  // ⚡ Auto-Save & Formatting
+  "files.autoSave": "afterDelay",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  // ⚡ Prettier Formatting Rules
+  "prettier.jsxSingleQuote": true,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "all",
+  "prettier.tabWidth": 2,
+  "prettier.printWidth": 100,
+  "prettier.arrowParens": "always",
+
+  // ⚡ Minimap & UI Performance Boost
+  "editor.minimap.enabled": false,
+  "editor.minimap.renderCharacters": false,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": true
+  },
+
+  // ⚡ Sidebar & Activity Bar Customization
+  "workbench.sideBar.width": 220,
+  "workbench.panel.defaultLocation": "bottom",
+
+  // ⚡ Terminal & Git Enhancements
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.scrollback": 10000,
+  "terminal.integrated.smoothScrolling": true,
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "javascript.validate.enable": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+
+  // ⚡ Bracket Pairing & Guides
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true,
+
+  // ⚡ Error & TODO Highlighting
+  "errorLens.enabled": true,
+  "todo-tree.general.tags": ["TODO", "FIXME", "BUG"],
+
+  // ⚡ Path & IntelliSense Boost
+  "path-intellisense.autoSlashAfterDirectory": true,
+
+  // ⚡ JSON, TypeScript, and JS Formatting
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
+
+
+git config --global user.name "Sachin18022000"
+git config --global user.email "kushwahasachin2000@gmail.com"
+  
